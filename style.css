@@ -120,7 +120,7 @@ border-radius: 10px;
 
 /* Optional: To ensure the text inside is centered too */
 .first-section .title {
-    text-align: center; 
+
 }
 .first-section .new-workspace  {
     text-align: center;
@@ -363,3 +363,4 @@ border-radius: 10px;
         display: none;
     }
 }
+
