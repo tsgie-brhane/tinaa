@@ -1,0 +1,365 @@
+body {
+    margin: 0;
+     background: #370b46e4;
+    color: white;
+
+}
+
+
+
+.navbar {
+   background-color: lch(82.05% 0.01 296.81);       
+justify-content: space-between;
+padding: 15px 50px;
+align-items: center;
+position: sticky;
+z-index: 100;
+}
+
+.nav-left{
+   gap: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+   
+
+}
+.first-nav{
+    display: flex;
+    text-transform: capitalize;
+   gap: 20px;
+   font-size: larger;
+   align-items: center;
+}
+.second-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-outline{
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.btn-outline:hover{
+    cursor: pointer;
+    background:wheat;
+}
+/* Hamburger Icon Styling */
+.toggle-button {
+    position: absolute;
+    top: 15px;
+    right: 1rem;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21px;
+    width: 30px;
+    cursor: pointer;
+}
+.btn-dark{
+background-color: white;
+border-color: #b3b3b3;
+color: #370b46e4;
+width: auto;
+float: right;
+border-radius: 10px;
+
+}
+.btn-dark:hover{
+    cursor: pointer;
+    background:wheat;
+}
+/* Hamburger Icon Styling */
+.toggle-button {
+    position: absolute;
+    top: 15px;
+    right: 1rem;
+    display: none; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: 21px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 20PX;
+}
+
+.workspace-box {
+    background: hsla(0, 2%, 65%, 0.973);
+    
+
+}
+.first-section {
+    /* Set a width for the section. If no width is set, it defaults to 100% 
+       and cannot be centered. max-width is better for responsiveness. */
+    max-width: 90%; 
+    
+    /* 🌟 NEW CODE FOR CENTERING 🌟 */
+    margin-left: auto;   /* Pushes the section to the right */
+    margin-right: auto;  /* Pushes the section to the left */
+    /* This can be combined as: margin: 0 auto; */
+    
+    padding: 20px; /* Optional: Add padding inside the section */
+}
+
+/* Optional: To ensure the text inside is centered too */
+.first-section .title {
+    text-align: center; 
+}
+.first-section .new-workspace  {
+    text-align: center;
+}
+
+.small-label {
+    font-size: 14px;
+    color: #d8d8d8;
+    margin-bottom: 15px;color: black;
+
+
+}
+
+.workspace-item {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.workspace-icon {
+    width: 45px;
+    height: 45px;
+    background: rgb(255, 187, 0);
+    background-color: rgb(230, 88, 59);
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+.workspace-text {   
+  background-color: aliceblue;
+}
+.workspace-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.launch-btn {
+    background: #4b0451;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+    background-size: 0cm;
+   
+}
+.new-workspace {
+    background: #f4ebebef;
+    padding: 20px;
+    margin-top: 25px;
+    color: black;
+    border-radius: 32px;
+    
+    border: 50px;
+    
+
+}
+.illustration{
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+}
+.try{
+   text-align:center;
+   padding: 80px;
+   justify-content: space-between;
+  
+
+}
+/* 1. CSS for the main section container */
+.download {
+    padding: 40px 20px;
+}
+
+/* 2. CSS for the content box (to center it horizontally on the page) */
+.download-box {
+    /* 🌟 HORIZONTAL CENTERING (Auto-Margins) 🌟 */
+    max-width: 90%; 
+    margin: 0 auto;
+    background-color: #4d0241;
+    
+    /* 🌟 CENTERING INNER FLEX CONTENT (Flexbox) 🌟 */
+    display: flex; /* Assuming this is already set */
+  justify-content: space-between;/* Stacks the child elements vertically */
+    align-items: center; /* Centers child items horizontally along the cross-axis */
+    
+    /* Optional: Basic styling */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center; /* To center text inside the <p> tags */
+}
+
+.download-link {
+    color: #5bbaff;
+    text-decoration: none;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center; /* Centers cards horizontally */
+    flex-wrap: wrap;        /* Essential so they don't overflow on small screens */
+    gap: 30px;
+        margin-top: 35px;
+}
+ 
+
+.card {
+    background: #b3b3b3;
+    
+    padding: 15px;
+    
+    color: rgb(16, 15, 15);
+
+    /* Centering internal content */
+    display: flex;
+    flex-direction: column; /* Stack image, text, and link vertically */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center the text itself */
+}
+.cardt{
+    background:   #b3b3b3;
+
+    padding: 15px;
+    
+    color: rgb(16, 15, 15);
+
+    /* Centering internal content */
+    display: flex;
+    flex-direction: column; /* Stack image, text, and link vertically */
+    align-items: center;    /* Center items horizontally */
+    text-align: center;     /* Center the text itself */
+}
+
+.cards {
+    max-width: 1200px;
+}
+.footer {
+    background-color: #aaa5a5;
+    color: black;
+    padding: 60px 20px 20px;
+    /* width: 102%; */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 12px;
+}
+
+.footer-section a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color:black;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    text-align: center;
+    color: #080707;
+    font-size: 14px;
+}
+/*........media-queries-for-small-screen*/ 
+@media only screen and (max-width: 999px){
+    .second-nav{
+       display: none;
+    }
+    
+}
+  
+
+  @media only screen and (max-width: 600px){
+    .workspace-item{
+       display: block;
+    }
+    .launch-btn{
+        width: 100%;
+    }
+    .new-workspace .download-box{
+        width: 100%;
+        max-width: none;
+    }
+} 
+
+  @media only screen and (max-width: 956px){
+    .illustration{
+       display: flex;
+       flex-direction: column-reverse
+    }
+    .workspace-create-btn{
+        width: 100%;
+    }
+   
+} 
+/* Responsive adjustment for tablets and mobile */
+@media only screen and (max-width: 768px) {
+    .cards {
+        width: 100%;       /* Makes the card take up the full width */
+        margin-bottom: 20px; /* Adds space between the stacked cards */
+    }
+}
+    @media only screen and (max-width: 550px) {
+    .first-nav{
+        display: none;
+    }
+}
+@media only screen and (max-width:750px) {
+    .cardt{
+        display: none;
+    }
+}
